@@ -1,0 +1,50 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Metodo Simplex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form1" name="form1" method="post" action="">
+        <p><strong>Método Simplex JavaScript<br />
+        <hr />
+        <p>
+            <label for="objetivo">Objetivo: </label>
+            <select name="objetivo" id="objetivo">
+                <option value="max">Maximizar</option>
+                <option value="min">Minimizar</option>
+            </select>
+            Variables de decisión:
+            <label for="nd"></label>
+            <input name="nd" type="num" id="nd" value="0" onClick="this.select();" required="required" />
+            Restricciones:
+            <label for="nr"></label>
+            <input name="nr" type="number" id="nr" value="0" onClick="this.select();" required="required" />
+            <input type="button" name="button" id="button" value="OK" onclick="generaMatrizInputs()" />
+        </p>
+        <hr />
+
+
+        <div id="fo">
+            <!-- Aquí se muestran las casillas -->
+            <!-- Función Objetivo -->
+        </div>
+
+
+        <div id="matriz"></div>
+        <div id="ceros"></div>
+
+
+        <div id="tabla"></div>
+
+    </form>
+</body>
+
+<script src="index.js"></script>
+
+</html>

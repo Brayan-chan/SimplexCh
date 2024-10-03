@@ -1,0 +1,80 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d1f;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Formularios y entradas */
+input[type="text"], input[type="number"], select {
+    background-color: #1a1a3f;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    text-align: right;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+}
+
+input[type="button"] {
+    background-color: #292959;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #3b3b7a;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+/* Contenedores */
+#fo, #matriz, #ceros, #tabla {
+    background-color: #1a1a3f;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.3);
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #2a2a5f;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.2);
+}
+
+table td, table th {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+table th {
+    background-color: #3b3b7a;
+    color: #fff;
+}
+
+table td {
+    background-color: #1c1c3a;
+    color: #fff;
+}
+
+/* Otros detalles */
+p {
+    color: #ccc;
+    font-size: 1.2em;
+}
